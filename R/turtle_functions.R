@@ -36,3 +36,7 @@ turn_right <- function(angle) {
   turtle_dir <<- (turtle_dir - angle) %% 360
 }
 
+say_hello <- function(){
+  print("Hey, I'm just a stupid turtle")
+}
+
