@@ -6,8 +6,8 @@ plot.window(xlim = c(0, 10), ylim = c(0, 10), xaxs = "i", yaxs = "i")
 title(main = "Turtle Graphics in R", xlab = "", ylab = "")
 
 # Initialize the turtle's starting position and direction
-turtle_pos <- c(5, 5)
-turtle_dir <- 0 # 0 = right, 90 = up, 180 = left, 270 = down
+turtle_pos <<- c(5, 5)
+turtle_dir <<- 0 # 0 = right, 90 = up, 180 = left, 270 = down
 }
 
 # Function to move the turtle forward a given distance
